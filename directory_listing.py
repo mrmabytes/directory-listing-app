@@ -8,6 +8,7 @@ from time import sleep
 class DirectoryListing:
     def __init__(self, initdir=None):
         self.top = tk.Tk()
+        self.top.iconbitmap('icon.ico')
         self.top.title('Directory Listing App')
 
         # The Search Box. The user can enter the desired directory
